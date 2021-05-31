@@ -8,6 +8,6 @@ Podemos usar lo que devuelva la función `up_or_down` para generar un archivo .c
 que hayamos seleccionado. Es decir, si selección = átomoP, entonces columnas serán átomoP_1, átomoP_2,..., átomoP_N y los
 renglones son los frames de la simulación. El valor de cada celda en este arreglo depende de la función que usemos.
 
-Dicho arreglo puede ser usado para calcular la matriz de correlación de Pearson, tal que podamos gráficar los resultados
-usando un mapa de calor. Usando lo que devuelva la función (cartesian_to_polar o acomodar_data) podemos utilizar normalized_pears_corr
+Podemos usar dicho arreglo para calcular la matriz de correlación de Pearson, tal que podamos gráficar los resultados
+usando un mapa de calor. Usando lo que devuelva la función (`cartesian_to_polar` o `acomodar_data`) podemos utilizar `normalized_pears_corr`
 para gráficar un mapa de valor sólo con los puntos significativos.

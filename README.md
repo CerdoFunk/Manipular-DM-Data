@@ -1,8 +1,8 @@
-# Manipular-DM-Data 
+# Manipular-MD-Data 
 
 Partiendo de una trayectoria de dinámica molecular de una membrana modelo podemos usar
-`up_or_down.py` para seleccionar la monocapa que queremos analizar. Esta función devuelve un
-AtomGroup (MDAnalysis).
+`up_or_down.py` para seleccionar la monocapa que queremos analizar. Esta función devuelve un AtomGroup
+(MDAnalysis), con todos los átomos en la monocapa superior o inferior.
 
 Podemos usar lo que devuelva la función `up_or_down` para generar un archivo .csv, ya sea con la
 función `cartesian_to_polar` o `acomodar_data` que devuelven un archivo.csv con las columnas siendo
